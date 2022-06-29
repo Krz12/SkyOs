@@ -41,8 +41,8 @@
             ForegroundHover = Color.White,
             ForegroundLight = Color.LightGray,
             Accent = Color.Blue,
-            Font = Canvas.Font.Default,
-            Radius = 0,
+            Font = Theme.DefaultLight.Font,
+            Radius = Theme.DefaultLight.Radius,
         };
 
         public Color BackgroundClick, ForegroundClick;

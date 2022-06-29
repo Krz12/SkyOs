@@ -199,9 +199,7 @@ namespace SkyOs
                         Canvas.DrawImage(Convert.ToInt32(Canvas.Width) / 2 - 128, Convert.ToInt32(Canvas.Height) / 2 - 128, 256, 256, Files.Logo);
                         Canvas.DrawString(Convert.ToInt32(Canvas.Width) / 2 - 304, Convert.ToInt32(Canvas.Height) / 2 + 128, $"SkyOS\nPowered by the cosmos Kernel, Prism OS", Theme.Default.Font, Graphics.Color.White);
                         Canvas.Update(false);
-                        _ = new Applications.AppTemplate1();
                         _ = new Applications.TaskBar();
-                        _ = new Applications.Menu();
                     }
                 }
                 if (key == ConsoleKey.Escape)

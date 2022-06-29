@@ -56,7 +56,7 @@ namespace SkyOs
                     #region Calculations
 
                     E.OnUpdate.Invoke();
-                    if (IsMouseWithin(Window.Position.X + E.Position.X, Window.Position.Y + E.Position.Y, E.Size.Width, E.Size.Height) && Window == Windows[^1])
+                    if (IsMouseWithin(Window.Position.X + E.Position.X, Window.Position.Y + E.Position.Y, E.Size.Width, E.Size.Height) && Window == Windows[^1] && Window.Visible)
                     {
                         E.Hovering = true;
                         if (Mouse.MouseState == Cosmos.System.MouseState.Left)

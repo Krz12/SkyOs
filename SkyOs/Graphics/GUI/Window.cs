@@ -5,14 +5,13 @@ namespace SkyOs.Graphics.GUI
 {
     public class Window
     {
-        public bool Visible = true, Draggable = true, TitleVisible = true, Moving, TopMost = false;
+        public bool Visible = true, Draggable = true, TitleVisible = true, Moving, TopMost = false, showInTaskBar = true;
         public List<Element> Elements = new();
         public Position Position;
         public Size Size;
         public Theme Theme;
         public string Text;
         public int IX, IY;
-
         public void Update(Canvas Canvas)
         {
             if (Visible)

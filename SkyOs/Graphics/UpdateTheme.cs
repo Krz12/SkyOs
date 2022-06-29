@@ -24,7 +24,7 @@ namespace SkyOs.Graphics
                 Theme.Default.ForegroundLight = Theme.DefaultLight.ForegroundLight;
                 Theme.Default.Accent = Theme.DefaultLight.Accent;
                 Theme.Default.Font = Canvas.Font.Default;
-                Theme.Default.Radius = 0;
+                Theme.Default.Radius = Theme.DefaultLight.Radius;
             }
             if (var.theme == "Dark")
             {
@@ -38,7 +38,7 @@ namespace SkyOs.Graphics
                 Theme.Default.ForegroundLight = Theme.DefaultDark.ForegroundLight;
                 Theme.Default.Accent = Theme.DefaultDark.Accent;
                 Theme.Default.Font = Canvas.Font.Default;
-                Theme.Default.Radius = 0;
+                Theme.Default.Radius = Theme.DefaultDark.Radius;
             }
         }
     }
