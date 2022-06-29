@@ -12,3 +12,5 @@ Fix User login in Console mode
 Add User login in Graphic mode
 
 Add .net appliction support: https://github.com/MishaTY/DotNetParser
+
+Make better code for boot selection
